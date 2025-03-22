@@ -1,0 +1,10 @@
+[package]
+name = "engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jiff = "0.2.4"
+parser = { path = "../parser" }
+serde = "1.0.219"
+thiserror = "2.0.12"
